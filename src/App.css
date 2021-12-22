@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  height: 100vh;
+  background: #130f40;
+  /* color: #fff; */
+}
+
+
+
+
+.input_div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input_div input[type="file"]{
+  display: none;
+  width: 80%;
+  padding: 2rem 3rem;
+}
+
